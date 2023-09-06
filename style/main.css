@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(239, 239, 242, 1);
+}
+.offer{
+    background-color: rgba(239, 239, 242, 1)
+}
+.button{
+    background: rgba(80, 77, 238, 1);
+
+}
+#trial{
+    background: rgba(25, 25, 28, 1);
+    color: white;
+}
+.find_program-button{
+    background: rgba(25, 25, 28, 1);
+    color: white;
+}
+.choose{
+    background: rgba(25, 25, 28, 1);
+    color: white;
+}
+.learn{
+    background-color: black;
+    color: white;
+}
+.discover{
+    background: rgba(251, 251, 252, 1);
+}
+.find_program{
+    background-color: rgba(222, 239, 228, 1);
+;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#heading{
+    color: black;
+}

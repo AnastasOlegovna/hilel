@@ -1,17 +1,90 @@
 body{
     background-color: rgba(239, 239, 242, 1);
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header_box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+
+
+}
+.otn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+
 }
 .offer{
-    background-color: rgba(239, 239, 242, 1)
+    background-color: rgba(239, 239, 242, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.offer__holder{
+    width: 648px;
+}
+.offer_title{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
 }
 .button{
     background: rgba(80, 77, 238, 1);
 
 }
-#trial{
-    background: rgba(25, 25, 28, 1);
-    color: white;
+.header__link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-decoration: none;
 }
+.header__but{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*#trial{*/
+/*    background: rgba(25, 25, 28, 1);*/
+/*    color: white;*/
+/*}*/
 .find_program-button{
     background: rgba(25, 25, 28, 1);
     color: white;
@@ -32,9 +105,27 @@ body{
 ;
 }
 footer{
+    display: flex;
     background-color: black;
     color: white;
 }
-#heading{
-    color: black;
+.sitemap_list{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    padding: 118px 28px;
+    display: flex;
+    width: 1920px;
+    height: 536px;
+    color: #6D6D77;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.copy_text_1{
+    align-items: flex-end;
+    height: 400px;
+    display: flex;
+    width: 297px;
 }

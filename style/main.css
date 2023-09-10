@@ -5,7 +5,8 @@ body{
     font: 400 18px/28px Inter, sans-serif;
 }
 .container{
-    width: 1920px;
+    /*width: 1920px;*/
+    padding: 0 15px;
     height: 770px;
     margin: 0 auto;
 }
@@ -190,7 +191,7 @@ footer{
 .copyright{
     padding: 118px 28px;
     display: flex;
-    width: 1920px;
+    /*width: 1920px;*/
     height: 536px;
     color: #6D6D77;
     list-style: none;
@@ -203,3 +204,40 @@ footer{
     display: flex;
     width: 297px;
 }
+.learn-container{
+    padding: 0 15px;
+}
+.learn_counters{
+    gap: 10px;
+    display: flex;
+}
+.learn_counter-number{
+       margin: 0 0 10px;
+   }
+@media screen and (min-width: 768px) and (max-width: 1440px){
+       .learn_counters{
+           display: flex;
+            gap: 76px;
+}
+}
+.learn_counter-item{
+    width: 100vh;
+    height: 100vh;
+}
+/*@media screen and (max-width: 1439px){*/
+/*    .learn_counter-item{*/
+/*    flex: 1 1 100%;*/
+/*}*/
+/*   .learn_counters{*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*   .learn-container{*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*   .learn_counter-number{*/
+/*       margin: 10px;*/
+/*   }*/
+/*   .learn_text{*/
+/*       width: auto;*/
+/*   }*/
+/*}*/

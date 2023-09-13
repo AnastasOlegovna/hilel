@@ -56,7 +56,8 @@ body{
     /*background-color: rgba(239, 239, 242, 1);*/
     display: flex;
     justify-content: space-between;
-    background: url("../img/gay.png") 100% 100% no-repeat;
+    background: url("../img/gay.png" ) 100% 100% no-repeat;
+
 }
 .offer__holder{
     height: 595px;
